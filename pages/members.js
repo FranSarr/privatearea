@@ -37,6 +37,7 @@ export default function Members({markdown}) {
         <h1 className=' mt-20 font-extrabold text-2xl'>Private Area</h1>
 
         <div
+          className='markdown'
           dangerouslySetInnerHTML={{ __html: markdown }}
           />
 
